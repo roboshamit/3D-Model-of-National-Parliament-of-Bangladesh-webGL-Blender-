@@ -1,0 +1,45 @@
+<html>
+	<head>
+	
+	</script>
+	<style>
+		body  {
+
+ 	 	background-image: url("song.jpg");
+ 	 	background-repeat:no-repeat;
+ 	 	background-color: gray;
+ 	    background-size: 800px 610px;
+ 	    background-position: center;
+}
+
+		button {
+ 		 display : inline-block;
+ 		 font-size : inherit;
+ 		
+ 		 margin-bottom: 10px;
+ 		 padding : 1.0em;
+}
+	</style>
+		<title>WebGL - National Parliament</title>
+	</head>
+	<button id="color-switcher"><b>Color</b> </button>
+	<button id="speed"><b>Speed</b></button>
+	<button id="lightbt"><b>Light</b></button>
+	
+	<body onload="InitDemo();">
+		<canvas id="game-surface" width="1345" height="450">
+			Your browser does not support HTML5
+		</canvas>
+		<br />
+		<center>
+		<b><u>National Parliament of Bangladesh</b></u>
+		<p>A Project by <b>Sakib Ahmed, Shamit Ahmed, Sofia Neherin</b></p></center>
+		<script src="util.js"></script>
+		<script src="gl-matrix.js"></script>
+		<script src="app.js"></script>
+		<script src="colorchange.js"></script>
+		<script src="speedcontrol.js"></script>
+		<script src="light.js"></script>
+		
+	</body>
+</html>
